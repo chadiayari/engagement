@@ -1,19 +1,11 @@
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Button,
-  Input,
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  Radio,
-  RadioGroup,
-  Chip,
-  Divider,
-  Image,
-  NextUIProvider,
-} from "@nextui-org/react";
+import { Button } from "@heroui/button";
+import { Input } from "@heroui/input";
+import { Card, CardBody, CardFooter, CardHeader } from "@heroui/card";
+import { Radio, RadioGroup } from "@heroui/radio";
+import { Chip } from "@heroui/chip";
+import { Image } from "@heroui/image";
 
 // Define types for our form
 type FormData = {
@@ -459,8 +451,6 @@ const EngagementPartyForm: React.FC = () => {
                 </span>
               </Chip>
 
-              <Divider className="my-4" />
-
               <p className="text-2xl mb-4 font-melodramaSemibold text-center">
                 Please bring along:
               </p>
@@ -538,8 +528,6 @@ const EngagementPartyForm: React.FC = () => {
               </p>
             )}
 
-            <Divider className="my-6" />
-
             <div className="text-xl">
               <p>Don't forget to bring your:</p>
               <p className="font-melodramaSemibold text-2xl text-pink-600 mb-2">
@@ -563,22 +551,20 @@ const EngagementPartyForm: React.FC = () => {
   ];
 
   return (
-    <NextUIProvider>
-      <div
-        className="bg-gradient-to-br from-pink-100 to-purple-100 min-h-screen"
-        ref={formRef}
-      >
-        <div className="container mx-auto">
-          <AnimatePresence mode="wait">{steps[currentStep]}</AnimatePresence>
-        </div>
-
-        <footer className="fixed bottom-0 left-0 w-full bg-white bg-opacity-80 py-3 px-6 text-center">
-          <p className="font-melodramaSemibold text-gray-600">
-            Powered by codini.tn
-          </p>
-        </footer>
+    <div
+      className="bg-gradient-to-br from-pink-100 to-purple-100 min-h-screen"
+      ref={formRef}
+    >
+      <div className="container mx-auto">
+        <AnimatePresence mode="wait">{steps[currentStep]}</AnimatePresence>
       </div>
-    </NextUIProvider>
+
+      <footer className="fixed bottom-0 left-0 w-full bg-white bg-opacity-80 py-3 px-6 text-center">
+        <p className="font-melodramaSemibold text-gray-600">
+          Powered by codini.tn
+        </p>
+      </footer>
+    </div>
   );
 };
 
