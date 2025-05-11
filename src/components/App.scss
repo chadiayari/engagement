@@ -1,9 +1,6 @@
 @import url(./reset.scss);
-@import url(./responsTangan.scss);
 @import url(./responsReflexology.scss);
 @import url(./ResponsBtn.scss);
-@import url(./responsPhisyo.scss);
-@import url(./responsiveNavbar.scss);
 
 /* Définir les polices locales avec @font-face */
 @font-face {
@@ -28,11 +25,14 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   cursor: default;
+
   &::-webkit-scrollbar {
     display: none;
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Light", sans-serif;
 }
