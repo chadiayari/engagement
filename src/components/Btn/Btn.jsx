@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import "./Btn.scss";
+import { Link } from "react-router-dom";
 
 export default function Btn({ firstText, secondText, borderColor }) {
   let [isHover, setIsHover] = useState(false);
@@ -16,7 +17,7 @@ export default function Btn({ firstText, secondText, borderColor }) {
   let btmMouseLeave = () => {
     setIsHover(false);
     let el = btnTextRef.current;
-    el.innerText = "MAKEAN APPOINTMENT";
+    el.innerText = "ENREGISTRER";
     el.style.color = "#f0f8ff";
     imageSecRef.current.style.borderColor = "#f0f8ff";
   };
@@ -50,23 +51,25 @@ export default function Btn({ firstText, secondText, borderColor }) {
 
   return (
     <>
-      <motion.div
-        onMouseEnter={btmMouseEnter}
-        onMouseLeave={btmMouseLeave}
-        variants={btnVariants}
-        animate={isHover ? "hover" : "default"}
-        className="image_section_button"
-        ref={imageSecRef}
-      >
+      <Link to="#form">
         <motion.div
-          variants={btnBGCVariants}
+          onMouseEnter={btmMouseEnter}
+          onMouseLeave={btmMouseLeave}
+          variants={btnVariants}
           animate={isHover ? "hover" : "default"}
-          className="bgButton"
-        ></motion.div>
-        <span ref={btnTextRef} className="text_image_btn">
-          {firstText}
-        </span>
-      </motion.div>
+          className="image_section_button"
+          ref={imageSecRef}
+        >
+          <motion.div
+            variants={btnBGCVariants}
+            animate={isHover ? "hover" : "default"}
+            className="bgButton"
+          ></motion.div>
+          <span ref={btnTextRef} className="text_image_btn">
+            {firstText}
+          </span>
+        </motion.div>
+      </Link>
     </>
   );
 }

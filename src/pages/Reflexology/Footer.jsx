@@ -1,13 +1,15 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { BubblyLink } from "react-bubbly-transitions";
 import "./Reflexology.scss";
+import EngagementPartyForm from "./Form";
 
 export default function Footer() {
   let titleFooterRef = useRef(null);
   let hoverImageRef = useRef(null);
   let scopeRef = useRef(null);
+  const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
     let ctx = gsap.context(() => {
@@ -76,30 +78,53 @@ export default function Footer() {
     }
   };
 
+  // Function to show form and scroll to bottom
+  const showFormAndScroll = () => {
+    setShowForm(true);
+    setTimeout(() => {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+      });
+    }, 100); // Small timeout to ensure form is rendered before scrolling
+  };
+
   return (
     <>
-      <div ref={scopeRef} className="contianer-fluid footer_reflexology">
+      <div
+        id="#form"
+        ref={scopeRef}
+        className="contianer-fluid footer_reflexology"
+      >
         <div className="row">
           <div className="col-12">
             <div className="wrapper_title_footer">
-              <p className="next_page">Next treatment</p>
-              <BubblyLink colorStart="#000" colorEnd="#f5f5f5" to="/physioscan">
-                <span
-                  ref={titleFooterRef}
-                  onMouseEnter={hoverON}
-                  onMouseLeave={hoverOff}
-                  onMouseMove={moveImage}
-                  className="title_footer"
+              <p className="next_page">AMONG THE VIP?</p>
+              {showForm ? (
+                <EngagementPartyForm />
+              ) : (
+                <button
+                  onClick={showFormAndScroll}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: 0,
+                    font: "inherit",
+                    color: "inherit",
+                  }}
                 >
-                  PHYSIOSCAN
-                </span>
-              </BubblyLink>
-              <img
-                ref={hoverImageRef}
-                className="hover_title_footer"
-                src="https://uploads-ssl.webflow.com/5bc989248743153705f137da/602a88e1239abee3048bf523_thumb_physioscan.jpg"
-                alt="https://uploads-ssl.webflow.com/5bc989248743153705f137da/602a88e1239abee3048bf523_thumb_physioscan.jpg"
-              />
+                  <span
+                    ref={titleFooterRef}
+                    onMouseEnter={hoverON}
+                    onMouseLeave={hoverOff}
+                    onMouseMove={moveImage}
+                    className="title_footer"
+                  >
+                    JOIN NOW
+                  </span>
+                </button>
+              )}
             </div>
           </div>
         </div>

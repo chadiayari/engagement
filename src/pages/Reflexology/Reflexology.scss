@@ -420,6 +420,7 @@
   .wrapper_title_footer {
     text-align: center;
     width: 100%;
+    font-size: 100px;
 
     .next_page {
       text-align: center;
@@ -460,4 +461,120 @@
   }
 }
 
-// end footer section styles
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-step {
+  margin-bottom: 2rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #000;
+  background: transparent;
+  font-family: "SaolDisplay", serif;
+  font-size: 1rem;
+}
+
+.map-link,
+.calendar-button {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.5vw;
+  padding: 0.6rem 1.5rem;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-family: "SaolDisplay", serif;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.option-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.choice-button {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-family: "SaolDisplay", serif;
+  transition: all 0.3s ease;
+
+  &.selected {
+    background: #000;
+    color: #fff;
+  }
+}
+
+.beverage-options {
+  display: grid;
+  font-size: 1.5vw;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.beverage-option {
+  padding: 1rem;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &.selected {
+    background: #000;
+    color: #fff;
+  }
+}
+
+.form-navigation {
+  display: flex;
+  text-align: end;
+  justify-content: space-between;
+  justify-items: end;
+
+}
+
+.nav-button {
+  font-size: 1.5vw;
+  padding: 0.8rem 1.5rem;
+  background: transparent;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-family: "SaolDisplay", serif;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: 1px solid #fff;
+  }
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 1rem;
+  font-size: 1.5vw;
+  font-family: "SaolDisplay", serif;
+}
+
+.dates {
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}

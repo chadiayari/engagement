@@ -126,8 +126,8 @@ export default function Goals() {
                 ></div>
                 <div className="wrapper_btn_goals">
                   <Btn
-                    firstText="makean appointment"
-                    secondText="take a break"
+                    firstText="Enregistrer"
+                    secondText="Enregistrer"
                     borderColor="#000"
                   />
                 </div>
