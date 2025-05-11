@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+  .image_section_button {
+    width: 135px;
+    height: 135px;
+    .text_image_btn {
+      font-size: 9px;
+      word-spacing: 2px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .image_section_button {
+    width: 170px;
+    height: 170px;
+    .text_image_btn {
+      font-size: 13px;
+      word-spacing: 3px;
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .image_section_button {
+    width: 200px;
+    height: 200px;
+    .text_image_btn {
+      font-size: 15px;
+      word-spacing: 3px;
+    }
+  }
+}

@@ -1,0 +1,1554 @@
+//  device 360px
+@media (min-width: 360px) {
+  // start header tangan responsive
+  .home_header {
+    padding: 0 0rem;
+    margin-top: -30rem !important;
+    .wrapper_home_header {
+      background-size: 185% !important;
+      height: 165vh !important;
+      .title_home_header {
+        margin-top: 55rem;
+        font-size: 20vw;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 4rem;
+    .title_stop_breath {
+      font-size: 4rem;
+      margin-left: 0rem;
+      line-height: 65px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 12px;
+      line-height: 20px;
+      // width: 600px;
+      margin-top: 2rem;
+      margin-bottom: 10%;
+      margin-left: 0%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 0rem;
+    .wrapper_left_image {
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: auto;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 94%;
+      margin-right: 2rem;
+      margin-left: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  // end image section reponsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 0;
+    padding-top: 6rem;
+    .wrapper_number3 {
+      svg {
+        width: 25vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-size: 3rem;
+        line-height: 4.2rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 11px;
+        line-height: 1.6rem;
+        width: 90%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 5rem;
+    }
+  }
+  // end techniquess section responsive
+  // start sticky section responsive
+  .wrapper_item {
+    margin-top: 6rem;
+    .wrapper_numbers_item {
+      margin-left: 3rem;
+      span {
+        &:nth-child(1) {
+          font-size: 23px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+        }
+        &:nth-child(2) {
+          width: 23px;
+          height: 2px;
+          background-color: #cfcfcf;
+          display: inline-block;
+          margin: 0 0.2rem;
+        }
+        &:nth-child(3) {
+          font-size: 23px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+          display: inline-block;
+        }
+      }
+    }
+    .title_items {
+      font-size: 3rem;
+      width: 85%;
+      margin-top: 1.5rem;
+      line-height: 3.5rem;
+    }
+    .desc_items {
+      width: 85%;
+      margin-top: 2rem;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .wrapper_image_item {
+      width: 85%;
+      margin-top: 2rem;
+      border: 1px solid aliceblue;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  // end sticky section responsive
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 2rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 2.5rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 0rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 2.5rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 4rem !important;
+    .wrapper_descs_writter {
+      margin-left: 2.5rem;
+      .about_writter_title {
+        font-size: 6vw;
+        line-height: 2rem;
+        width: 90%;
+        margin-top: 3rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 2rem;
+      }
+      .writter_name {
+        font-size: 13px;
+        margin-top: 2rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 80%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 80%;
+        .writter_image_description {
+          font-size: 12px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      margin-left: 1rem;
+      .title_betterHealth {
+        margin-top: 2rem;
+        font-size: 15vw;
+        line-height: 4.3rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 20px;
+        font-size: 2.5vw;
+        width: 90%;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// device 476px
+@media (min-width: 476px) {
+  // start header tangan responsive
+  .home_header {
+    padding: 0 0rem;
+    margin-top: -25rem !important;
+    .wrapper_home_header {
+      height: 116vh;
+      background-size: 170%;
+      .title_home_header {
+        margin-top: 42rem;
+        font-size: 20vw;
+        margin-left: 1.5rem;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 4rem;
+    .title_stop_breath {
+      font-size: 4rem;
+      margin-left: 0rem;
+      line-height: 62px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 12px;
+      line-height: 20px;
+      // width: 600px;
+      margin-top: 2rem;
+      margin-bottom: 10%;
+      margin-left: 0%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 3rem;
+    .wrapper_left_image {
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: auto;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 94%;
+      margin-right: 2rem;
+      margin-left: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  // end image section reponsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 0rem;
+    padding-top: 8rem;
+    .wrapper_number3 {
+      svg {
+        width: 29vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-size: 3rem;
+        line-height: 4.2rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 10px;
+        line-height: 1.6rem;
+        width: 90%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 5rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section responsive
+  .wrapper_item {
+    margin-top: 6rem;
+    .wrapper_numbers_item {
+      margin-left: 3rem;
+      span {
+        &:nth-child(1) {
+          font-size: 23px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+        }
+        &:nth-child(2) {
+          width: 23px;
+          height: 2px;
+          background-color: #cfcfcf;
+          display: inline-block;
+          margin: 0 0.2rem;
+        }
+        &:nth-child(3) {
+          font-size: 23px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+          display: inline-block;
+        }
+      }
+    }
+    .title_items {
+      font-size: 3rem;
+      width: 85%;
+      margin-top: 1.5rem;
+      line-height: 3.5rem;
+    }
+    .desc_items {
+      width: 85%;
+      margin-top: 2rem;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .wrapper_image_item {
+      width: 85%;
+      margin-top: 2rem;
+      border: 1px solid aliceblue;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  // end sticky section responsive
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 3rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 2rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 3rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 4rem !important;
+    .wrapper_descs_writter {
+      margin-left: 4rem;
+      .about_writter_title {
+        font-size: 6vw;
+        line-height: 2.5rem;
+        width: 90%;
+        margin-top: 5rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 4rem;
+      }
+      .writter_name {
+        font-size: 13px;
+        margin-top: 2rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 80%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 80%;
+        .writter_image_description {
+          font-size: 12px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      margin-left: 1rem;
+      .title_betterHealth {
+        margin-top: 2rem;
+        font-size: 15vw;
+        line-height: 5rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 20px;
+        font-size: 2.5vw;
+        width: 80%;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// small device 576px
+@media (min-width: 576px) {
+  // start header tangan responsive
+  .home_header {
+    padding: 0 0rem;
+    margin-top: -1rem !important;
+    .wrapper_home_header {
+      background-size: 170% !important;
+      height: 116vh !important;
+      .title_home_header {
+        margin-top: 19rem;
+        font-size: 20vw;
+        margin-left: 1.5rem;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 7rem;
+    .title_stop_breath {
+      font-size: 5rem;
+      margin-left: 0rem;
+      line-height: 80px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 13px;
+      line-height: 23px;
+      // width: 600px;
+      margin-top: 3rem;
+      margin-bottom: 6%;
+      margin-left: 0%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 5rem;
+    .wrapper_left_image {
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: auto;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 94%;
+      margin-right: 2rem;
+      margin-left: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  // end image section responsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 6rem;
+    padding-top: 10rem;
+    .wrapper_number3 {
+      svg {
+        width: 33vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 6rem;
+        margin-left: 6rem;
+        font-size: 4.5rem;
+        line-height: 5.5rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 11px;
+        line-height: 1.6rem;
+        width: 100%;
+        margin-top: 4rem;
+        margin-left: 6rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 5rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section responsive
+  .wrapper_item {
+    margin-top: 6rem;
+    .wrapper_numbers_item {
+      margin-left: 3rem;
+      span {
+        &:nth-child(1) {
+          font-size: 25px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+        }
+        &:nth-child(2) {
+          width: 25px;
+          height: 2px;
+          background-color: #cfcfcf;
+          display: inline-block;
+          margin: 0 0.2rem;
+        }
+        &:nth-child(3) {
+          font-size: 25px;
+          font-family: "SaolDisplay", serif;
+          color: #cfcfcf;
+          display: inline-block;
+        }
+      }
+    }
+    .title_items {
+      font-size: 4rem;
+      width: 85%;
+      margin-top: 2rem;
+      line-height: 4.5rem;
+    }
+    .desc_items {
+      width: 85%;
+      margin-top: 2rem;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .wrapper_image_item {
+      width: 85%;
+      margin-top: 2rem;
+      border: 1px solid aliceblue;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  // end sticky section responsive
+
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 3rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 2rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 3rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 6rem !important;
+    .wrapper_descs_writter {
+      margin-left: 4rem;
+      .about_writter_title {
+        font-size: 6vw;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 5rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 4rem;
+      }
+      .writter_name {
+        font-size: 15px;
+        margin-top: 2rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 80%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 80%;
+        .writter_image_description {
+          font-size: 12px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      margin-left: 1rem;
+      .title_betterHealth {
+        margin-top: 2rem;
+        font-size: 15vw;
+        line-height: 5.5rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 22px;
+        font-size: 2.2vw;
+        width: 80%;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// medium device 768px
+@media (min-width: 768px) {
+  // start header tangan responsive
+  .home_header {
+    padding: 0 0rem;
+    margin-top: 0rem !important;
+    .wrapper_home_header {
+      background-size: 170% !important;
+      height: 110vh !important;
+      .title_home_header {
+        margin-top: 14rem;
+        margin-left: 1.5rem;
+        font-size: 20vw;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 7rem;
+    .title_stop_breath {
+      font-size: 5.5rem;
+      margin-left: 0rem;
+      line-height: 85px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 13px;
+      line-height: 25px;
+      // width: 600px;
+      margin-top: 3rem;
+      margin-bottom: 4%;
+      margin-left: 0%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 7rem;
+    .wrapper_left_image {
+      margin-top: 3rem;
+      margin-left: 3rem;
+      margin-right: auto;
+      width: 95%;
+      height: 95%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 93%;
+      margin-left: auto;
+      margin-right: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      display: block;
+      visibility: visible;
+      margin-left: 0rem;
+      margin-top: 16rem;
+    }
+  }
+  // end image section responsive
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 8rem;
+    padding-top: 10rem;
+    .wrapper_number3 {
+      svg {
+        width: 33vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 3rem;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        margin-left: 0rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 10px;
+        line-height: 1.2rem;
+        margin-left: 0rem;
+        width: 100%;
+        margin-top: 4rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 10rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section resonsive
+  .sticky_section {
+    .wrapper_sticky_descs {
+      .descs1 {
+        margin-left: 3rem;
+        .titles {
+          width: 100%;
+          height: 235px;
+          margin-top: 1rem;
+          p {
+            font-size: 4rem;
+            &:nth-child(1) {
+              padding-top: 2rem;
+            }
+            &:nth-child(3) {
+              padding-top: 2rem;
+            }
+          }
+        }
+        .descs {
+          margin-top: 0.5rem;
+          width: 95%;
+          height: 120px;
+          p {
+            font-size: 12px;
+            line-height: 23px;
+            width: 100%;
+          }
+        }
+        .numbers {
+          width: 100%;
+          height: 50px;
+          span {
+            font-size: 27px;
+          }
+        }
+      }
+    }
+  }
+  // end sticky section responsive
+
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 4rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 2rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 4rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 15rem !important;
+    .wrapper_descs_writter {
+      margin-left: 3rem;
+      .about_writter_title {
+        font-size: 3vw;
+        line-height: 2rem;
+        width: 90%;
+        margin-top: 1rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 9rem;
+      }
+      .writter_name {
+        font-size: 13px;
+        margin-top: 2rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin-top: 2rem;
+        .writter_image_description {
+          font-size: 12px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      margin-left: 1rem;
+      .title_betterHealth {
+        margin-top: 2rem;
+        font-size: 9vw;
+        line-height: 5rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 20px;
+        font-size: 1.2vw;
+        width: 80%;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// large device 992px
+@media (min-width: 992px) {
+  // start header tangan responsive
+  .home_header {
+    padding: 0 2rem;
+    margin-top: 6rem !important;
+    .wrapper_home_header {
+      background-size: 170% !important;
+      height: 91vh !important;
+      .title_home_header {
+        margin-top: 12rem;
+        font-size: 17vw;
+        margin-left: 1.5rem;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 10rem;
+    .title_stop_breath {
+      font-size: 6rem;
+      margin-left: 5rem;
+      line-height: 95px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 13px;
+      line-height: 23px;
+      // width: 600px;
+      margin-top: 7rem;
+      margin-left: 18%;
+      margin-bottom: 0%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 10rem;
+    .wrapper_left_image {
+      margin-top: -5rem;
+      margin-right: auto;
+      margin-left: 3rem;
+      width: 75%;
+      height: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 83%;
+      margin-left: auto;
+      margin-right: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      margin-left: 0rem;
+      margin-top: 9rem;
+    }
+  }
+  // end image section responsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 8rem;
+    padding-top: 10rem;
+    .wrapper_number3 {
+      svg {
+        width: 36vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        font-size: 4.5rem;
+        line-height: 5rem;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 11px;
+        line-height: 1.5rem;
+        margin-left: 0rem;
+        width: 90%;
+        margin-top: 4rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 11rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section resonsive
+  .sticky_section {
+    .wrapper_sticky_descs {
+      .descs1 {
+        margin-left: 6rem;
+        .titles {
+          width: 100%;
+          height: 235px;
+          margin-top: 1rem;
+          p {
+            font-size: 5rem;
+            &:nth-child(1) {
+              padding-top: 1rem;
+            }
+            &:nth-child(3) {
+              padding-top: 1rem;
+            }
+          }
+        }
+        .descs {
+          margin-top: 0.5rem;
+          width: 100%;
+          height: 120px;
+          p {
+            font-size: 15px;
+            line-height: 24px;
+          }
+        }
+        .numbers {
+          width: 100%;
+          height: 50px;
+          span {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  // end sticky section responsive
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 5.5vw;
+      line-height: 4.5rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: -2rem;
+    .bottom_title {
+      font-size: 5.5vw;
+      line-height: 4.5rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 15rem !important;
+    .wrapper_descs_writter {
+      margin-left: 3rem;
+      .about_writter_title {
+        font-size: 3vw;
+        line-height: 3rem;
+        width: 90%;
+        margin-top: 2.8rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 7.8rem;
+      }
+      .writter_name {
+        font-size: 14px;
+        margin-top: 2.5rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin-top: 3rem;
+        .writter_image_description {
+          font-size: 12px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      margin-left: 1rem;
+      .title_betterHealth {
+        margin-top: 3rem;
+        font-size: 7vw;
+        line-height: 5rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 20px;
+        font-size: 1vw;
+        width: 80%;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// xl device 1200px
+@media (min-width: 1200px) {
+  // start header tangan responsive
+  .home_header {
+    margin-top: 6rem !important;
+    padding: 0 3rem;
+    .wrapper_home_header {
+      background-size: 170% !important;
+      height: 87vh !important;
+      .title_home_header {
+        margin-top: 11;
+        margin-left: 1.5rem;
+        font-size: 17vw;
+      }
+      .home_title_ticker_header {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+  // end header tangan responsive
+
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 12rem;
+    .title_stop_breath {
+      font-size: 6rem;
+      margin-left: 5rem;
+      line-height: 100px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 14px;
+      line-height: 25px;
+      // width: 600px;
+      margin-top: 8rem;
+      margin-bottom: 0%;
+      margin-left: 18%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 10rem;
+    .wrapper_left_image {
+      margin-top: -5rem;
+      margin-left: 3rem;
+      margin-right: auto;
+      width: 75%;
+      height: 95%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 80%;
+      margin-left: auto;
+      margin-right: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      margin-top: 10rem;
+      margin-left: 0rem;
+    }
+  }
+  // end image section responsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 8rem;
+    padding-top: 10rem;
+    .wrapper_number3 {
+      svg {
+        width: 37vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 0;
+        font-size: 5.5rem;
+        line-height: 6rem;
+        margin-left: 0rem;
+        width: 100%;
+      }
+      .desc_techniques {
+        font-size: 13px;
+        line-height: 1.5rem;
+        margin-left: 0rem;
+        width: 85%;
+        margin-top: 5rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 12rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section resonsive
+  .sticky_section {
+    .wrapper_sticky_descs {
+      .descs1 {
+        margin-left: 7rem;
+        .titles {
+          width: 100%;
+          height: 235px;
+          margin-top: 1rem;
+          p {
+            font-size: 5rem;
+            &:nth-child(1) {
+              padding-top: 0.5rem;
+            }
+            &:nth-child(3) {
+              padding-top: 0.5rem;
+            }
+          }
+        }
+        .descs {
+          margin-top: 0.5rem;
+          width: 100%;
+          height: 120px;
+          p {
+            font-size: 15px;
+            line-height: 24px;
+          }
+        }
+        .numbers {
+          width: 100%;
+          height: 50px;
+          span {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  // end sticky section responsive
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 5.5rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 3rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 5.5rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 15rem !important;
+    .wrapper_descs_writter {
+      margin-left: 3rem;
+      .about_writter_title {
+        font-size: 3vw;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 2rem;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 13.5rem;
+      }
+      .writter_name {
+        font-size: 14px;
+        margin-top: 2.5rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin-top: 3.5rem;
+        .writter_image_description {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      .title_betterHealth {
+        margin-top: 2rem;
+        font-size: 7vw;
+        line-height: 5.5rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        line-height: 22px;
+        width: 85%;
+        font-size: 0.9vw;
+      }
+    }
+  }
+  // end better health section responsive
+}
+// xxl device 1400px
+@media (min-width: 1400px) {
+  // start header tangan responsive
+  .home_header {
+    margin-top: 6rem !important;
+    padding: 0 3rem;
+    .wrapper_home_header {
+      background-size: 170% !important;
+      height: 90.5vh !important;
+      .title_home_header {
+        margin-top: 5rem;
+        font-size: 17vw;
+        margin-left: 0rem;
+      }
+      .home_title_ticker_header {
+        visibility: visible;
+        display: flex;
+      }
+    }
+  }
+  // end header tangan responsive
+
+  // start stop breath section responsive
+  .stop_breath {
+    margin-top: 13rem;
+    .title_stop_breath {
+      font-size: 6rem;
+      margin-left: 5rem;
+      line-height: 100px;
+      width: 460px;
+    }
+    .desc_stop_breath {
+      font-size: 14px;
+      line-height: 25px;
+      // width: 600px;
+      margin-top: 10rem;
+      margin-bottom: 0%;
+      margin-left: 30%;
+    }
+  }
+  // end stop breath section responsive
+
+  // start image section responsive
+  .images_section {
+    margin-top: 10rem;
+    .wrapper_left_image {
+      margin-top: -5rem;
+      margin-left: 3rem;
+      margin-right: auto;
+      width: 73%;
+      height: 90%;
+      img {
+        width: 100%;
+      }
+    }
+    .wrapper_right_image {
+      width: 72%;
+      margin-left: auto;
+      margin-right: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .btn_imageSection {
+      margin-top: 8rem;
+      margin-left: 0rem;
+    }
+  }
+  // end image section responsive
+
+  // start techniquess section responsive
+  .techniquess {
+    margin-top: 8rem;
+    padding-top: 10rem;
+    .wrapper_number3 {
+      svg {
+        width: 38vh;
+      }
+    }
+    .wrapper_techniques {
+      .title_techniques {
+        margin-top: 0;
+        font-size: 6rem;
+        line-height: 6.5rem;
+        margin-left: 0rem;
+        width: 90%;
+      }
+      .desc_techniques {
+        font-size: 15px;
+        line-height: 1.5rem;
+        margin-left: 0rem;
+        width: 80%;
+        margin-top: 5rem;
+      }
+    }
+    .home_title_ticker_techniquess {
+      margin-top: 12rem;
+    }
+  }
+  // end techniquess section responsive
+
+  // start sticky section resonsive
+  .sticky_section {
+    .wrapper_sticky_descs {
+      .descs1 {
+        margin-left: 8rem;
+        .titles {
+          margin-top: 0rem;
+          width: 100%;
+          height: 235px;
+          p {
+            font-size: 6rem;
+            &:nth-child(1) {
+              padding-top: 0rem;
+            }
+            &:nth-child(3) {
+              padding-top: 0rem;
+            }
+          }
+        }
+        .descs {
+          margin-top: 2.5rem;
+          width: 100%;
+          height: 120px;
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+        .numbers {
+          width: 100%;
+          height: 50px;
+          span {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  // end sticky section responsive
+
+  // start more description about tangan resonsive
+  .wrapper_top_title {
+    margin-left: 3rem;
+    margin-top: 10rem;
+    .top_title {
+      font-size: 6vw;
+      line-height: 7rem;
+    }
+  }
+  .wrapper_bottom_title {
+    width: 75vw;
+    margin-right: 3rem;
+    .bottom_title {
+      font-size: 6vw;
+      line-height: 7rem;
+    }
+  }
+  // end more description about tangan responsive
+
+  // start about writter section responsive
+  .about_writter {
+    margin-top: 15rem !important;
+    .wrapper_descs_writter {
+      margin-left: 3rem;
+      .about_writter_title {
+        margin-top: 0rem;
+        font-size: 3.5vw;
+        line-height: 4.5rem;
+        width: 90%;
+      }
+      .border_bottom_writter {
+        width: 100%;
+        height: 1px;
+        margin-top: 10.5rem;
+      }
+      .writter_name {
+        font-size: 16px;
+        margin-top: 3.5rem;
+      }
+    }
+    .wrapper_all_writter {
+      margin-right: 2rem;
+      .wrapper_image_writter {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .wrapper_image_description {
+        margin-top: 3.5rem;
+        .writter_image_description {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  // end about writter section responsive
+  // start better health section responsive
+  .better_health {
+    .wrapper_betterHealth_desc {
+      .title_betterHealth {
+        margin-top: 1rem;
+        font-size: 7vw;
+        line-height: 7rem;
+      }
+      .desc_betterHealth {
+        margin-top: 3rem;
+        width: 75%;
+        line-height: 21px;
+        font-size: 0.9vw;
+      }
+    }
+  }
+  // end better health section responsive
+}

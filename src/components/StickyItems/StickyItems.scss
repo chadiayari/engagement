@@ -1,0 +1,60 @@
+.wrapper_item {
+  margin-top: 4rem;
+  .wrapper_numbers_item {
+    span {
+      &:nth-child(1) {
+        top: 0rem;
+        left: 0rem;
+        font-size: 30px;
+        font-family: "SaolDisplay", serif;
+        color: #cfcfcf;
+      }
+      &:nth-child(2) {
+        top: 1.6rem;
+        left: 2.5rem;
+        width: 25px;
+        height: 2px;
+        background-color: #cfcfcf;
+        display: inline-block;
+      }
+      &:nth-child(3) {
+        top: 0rem;
+        left: 4.7rem;
+        font-size: 30px;
+        font-family: "SaolDisplay", serif;
+        color: #cfcfcf;
+      }
+    }
+  }
+  .title_items {
+    font-size: 6rem;
+    color: aliceblue;
+    font-family: "SaolDisplay", serif;
+    font-weight: 500;
+    width: 40%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .desc_items {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 16px;
+    color: rgb(213 220 223);
+    text-transform: capitalize;
+    line-height: 26px;
+    font-family: "SaolDisplay", serif;
+    text-align: center;
+  }
+  .wrapper_image_item {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+}

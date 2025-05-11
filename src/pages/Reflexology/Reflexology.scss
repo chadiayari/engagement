@@ -1,0 +1,655 @@
+// start header style reflexology
+.header_reflexology {
+  // margin-bottom: 4rem;
+  .price_reflexology {
+    text-align: center;
+    margin-top: 7rem;
+    opacity: 0;
+    span {
+      font-size: 2vw;
+      display: inline-block;
+      color: #000;
+      opacity: 0.7;
+      font-weight: 100;
+      //   font-family: "SaolDisplay", serif;
+      font-family: "Oswald", sans-serif;
+      font-style: italic;
+    }
+    .line_price {
+      width: 20px;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+  .title_header_reflexology {
+    text-align: center;
+    font-size: 10vw;
+    line-height: 10.5rem;
+    font-weight: 500;
+    font-family: "SaolDisplay", serif;
+  }
+  .scope {
+    margin-top: -5%;
+    mix-blend-mode: multiply;
+    .header_image {
+      height: 100vh;
+      clip-path: inset(0% 25%);
+      filter: brightness(0.75);
+      background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/6040f0064ed94c45ceda486b_bg_hero_reflexologie.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .sticky_texts {
+    position: relative;
+    width: 100%;
+    height: 78vh;
+    .title_header_image {
+      position: absolute;
+      line-height: 6.5rem;
+      top: -15%;
+      font-size: 5.5vw;
+      left: 15%;
+      color: #f5f5f5;
+      font-family: "SaolDisplay", serif;
+    }
+    .desc_header_image {
+      position: absolute;
+      width: 30vw;
+      bottom: 32%;
+      right: 12%;
+      line-height: 23px;
+      font-size: 0.9vw;
+      font-family: "Light", sans-serif;
+      color: #f5f5f5;
+    }
+  }
+}
+// end header styles reflexology
+
+// start goals styles reflexology
+.goals {
+  position: relative;
+  .wrapper_goals_title {
+    margin-top: 56%;
+    .goals_title {
+      font-size: 6vw;
+      font-family: "SaolDisplay", serif;
+      color: #000;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+  .border_right_goals {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 1px;
+    height: 0%;
+    z-index: 100;
+    background-color: #000;
+  }
+  .wrapper_btn_goals {
+    position: relative;
+    top: 72%;
+  }
+  // border left goals section
+  .border_left_goals {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    height: 0%;
+    width: 1px;
+    background-color: #000;
+    z-index: 100;
+  }
+  .wrapper_goalsItem1 {
+    padding-left: 1rem;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    .title_goalsItem1 {
+      font-size: 3vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .desc_goalsItem1 {
+      font-size: 14px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 2rem;
+      line-height: 1.3rem;
+    }
+    .border_goalsItem1 {
+      position: absolute;
+      bottom: 0rem;
+      left: -27px;
+      width: 0%;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+  .prevent_image {
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/6040f006134916376bca40b1_reflexologie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    width: 110%;
+    margin-left: -1.7rem;
+  }
+  .border_bottom_goals {
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    bottom: -40%;
+    left: 0%;
+    background-color: #000;
+  }
+}
+
+.goals2 {
+  margin-top: 11rem;
+  .wrapper_title2_goals {
+    .title_goals2 {
+      font-size: 13vw;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+  .wrapper_item_goals2 {
+    position: relative;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    .title_itemGoals {
+      font-size: 8vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .desc_itemGoals {
+      font-size: 12px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      width: 53vw;
+      line-height: 20px;
+    }
+  }
+  .border_bottemItem {
+    width: 0vw;
+    height: 1px;
+    background-color: #000;
+  }
+  .image_prevent_goals2 {
+    min-width: 100%;
+    min-height: 70vh;
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/6040f006134916376bca40b1_reflexologie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+// end goals styles reflexology
+
+// start more about section styles
+.moreAbout {
+  margin-top: 60rem;
+  .wrapper_more_descs {
+    padding-left: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    .titles_more1 {
+      font-size: 6vw;
+      color: #f5f5f5;
+      font-family: "Raleway", sans-serif;
+      font-style: italic;
+      text-transform: uppercase;
+      line-height: 6.5rem;
+      font-weight: 100;
+      display: inline-block;
+      letter-spacing: -1px;
+      position: relative;
+      .line_title1 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_more2 {
+      @extend .titles_more1;
+      .line_title2 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_more3 {
+      @extend .titles_more1;
+      .line_title3 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_more4 {
+      @extend .titles_more1;
+      .line_title4 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+  }
+  .wrapper_image_more {
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+    width: 18vw;
+    height: 14vw;
+    margin-right: 3rem;
+    .image_more_section {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      clip-path: inset(100% 0% 0% 0%);
+      transform: scale(3);
+    }
+  }
+  .wrapper_left_image_more {
+    overflow: hidden;
+    height: 23vw;
+    width: 16vw;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border: 1px solid #f5f5f5;
+    .image_left_more_section {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      clip-path: inset(100% 0% 0% 0%);
+      transform: scale(2);
+    }
+  }
+  .wrapper_more_descs2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    .titles_bottom_more1 {
+      font-size: 6vw;
+      color: #f5f5f5;
+      font-family: "Raleway", sans-serif;
+      font-style: italic;
+      text-transform: uppercase;
+      line-height: 6.5rem;
+      font-weight: 100;
+      display: inline-block;
+      letter-spacing: -1px;
+      position: relative;
+      .line_bottom_title1 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_bottom_more2 {
+      @extend .titles_bottom_more1;
+      .line_bottom_title2 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_bottom_more3 {
+      @extend .titles_bottom_more2;
+      .line_bottom_title3 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+    .titles_bottom_more4 {
+      @extend .titles_bottom_more2;
+      .line_bottom_title4 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        content: "";
+        background-color: #f5f5f5;
+      }
+    }
+  }
+}
+// end more about section styles
+
+// start Technical section styles
+.Technical {
+  position: relative;
+  margin-top: 12rem;
+  .border_bottom_technical {
+    position: absolute;
+    bottom: -11rem;
+    width: 100vw;
+    height: 1px;
+    background-color: #000;
+  }
+  .border_top_technical {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+  }
+  .wrapper_Technical_title {
+    margin-top: 50%;
+    .Technical_title {
+      font-size: 6vw;
+      font-family: "SaolDisplay", serif;
+      color: #000;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+  .border_right_Technical {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 1px;
+    height: 0%;
+    z-index: 100;
+    background-color: #000;
+  }
+  .border_left_Technical {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    height: 0%;
+    width: 1px;
+    background-color: #000;
+    z-index: 100;
+  }
+  .wrapper_btn_Technical {
+    width: 100%;
+    margin-top: 17rem;
+  }
+  .border_bottom_Technical {
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    bottom: -34.8%;
+    left: 0%;
+    background-color: #000;
+  }
+  .wrapper_Reflexzones {
+    padding-left: 1rem;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    .Reflexzones_title {
+      font-size: 3vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .Reflexzones_desc1 {
+      font-size: 14px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 2.5rem;
+      line-height: 1.4rem;
+    }
+    .Reflexzones_desc2 {
+      font-size: 13px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 1.5rem;
+      line-height: 1.3rem;
+    }
+  }
+  .wrapper_image1_technical {
+    margin: 4rem 0rem;
+    width: 640px;
+    height: 372px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .wrapper_image2_technical {
+    @extend .wrapper_image1_technical;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .wrapper_image3_technical {
+    @extend .wrapper_image1_technical;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .wrapper_image4_technical {
+    @extend .wrapper_image1_technical;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .wrapper_Ancestral {
+    padding-left: 1rem;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    .Ancestral_title {
+      font-size: 3vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .Ancestral_desc1 {
+      font-size: 14px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 2.5rem;
+      line-height: 1.4rem;
+    }
+    .Ancestral_desc2 {
+      font-size: 13px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 1.5rem;
+      line-height: 1.3rem;
+    }
+  }
+}
+.Technical2 {
+  position: relative;
+  margin-top: 22rem;
+  .wrapper_Technical2_title {
+    margin-top: 12%;
+    .Technical2_title {
+      font-size: 12vw;
+      font-family: "SaolDisplay", serif;
+      color: #000;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+  .wrapper_Reflexzones2 {
+    padding-left: 1rem;
+    margin-top: 5rem;
+    .Reflexzones2_title {
+      font-size: 6vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .Reflexzones2_desc1 {
+      font-size: 13px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 2.5rem;
+      line-height: 1.3rem;
+    }
+    .Reflexzones2_desc2 {
+      font-size: 12px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 1.5rem;
+      line-height: 22px;
+    }
+  }
+  .wrapper_Ancestral2 {
+    padding-left: 1rem;
+    .Ancestral2_title {
+      font-size: 6vw;
+      color: #000;
+      font-weight: 100;
+      font-family: "SaolDisplay", serif;
+    }
+    .Ancestral2_desc1 {
+      font-size: 11px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 2.5rem;
+      line-height: 20px;
+    }
+    .Ancestral2_desc2 {
+      font-size: 13px;
+      font-family: "Light", sans-serif;
+      color: #000;
+      margin-top: 1.5rem;
+      line-height: 23px;
+    }
+  }
+  .image1_Technical2 {
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/5feca1ebc46ece50791c880e_feet-map-01-p-1080.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    margin-top: 2rem;
+    clip-path: inset(100% 0% 0% 0%);
+    transform: scale(2);
+    opacity: 0;
+  }
+  .image2_Technical2 {
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/5feca3329c74e6ab9561347a_feet-map-02-p-1080.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 4rem;
+  }
+  .image3_Technical2 {
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/5feca347aac908296c5fbeae_feet-map-03-p-1080.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    margin-top: 4rem;
+  }
+  .image4_Technical2 {
+    background-image: url(https://uploads-ssl.webflow.com/5bc989248743153705f137da/5feca35bd91ad311edfd674a_feet-map-04-p-1080.jpeg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 1rem;
+  }
+}
+// end Technical section styles
+
+// start footer section css styles
+.footer_reflexology {
+  margin-top: 30rem;
+  height: 70vh;
+  position: relative;
+  .wrapper_title_footer {
+    text-align: center;
+    width: 100%;
+    .next_page {
+      text-align: center;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 200;
+      font-family: "SaolDisplay", serif;
+    }
+    button {
+      display: inline-block;
+      color: #000;
+      text-decoration: none;
+      margin-top: 4rem;
+      .title_footer {
+        font-size: 8vw;
+        font-weight: 500;
+        font-family: "SaolDisplay", serif;
+        cursor: pointer;
+        display: inline-block;
+      }
+    }
+
+    .hover_title_footer {
+      position: absolute;
+      top: 0;
+      left: 10rem;
+      width: 200px;
+      height: 324px;
+      will-change: transform;
+      opacity: 0;
+      pointer-events: none;
+      transform: translate(-50% -50%);
+      mix-blend-mode: hard-light;
+      clip-path: inset(100% 0%);
+    }
+  }
+}
+// end footer section styles

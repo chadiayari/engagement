@@ -1,0 +1,1524 @@
+@media (min-width: 360px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 19vw;
+      line-height: 5rem;
+    }
+    .price_reflexology {
+      margin-top: 18rem;
+      span {
+        font-size: 4.6vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 3.5rem;
+        top: -15%;
+        font-size: 10vw;
+        left: 8%;
+      }
+      .desc_header_image {
+        width: 50vw;
+        bottom: 50%;
+        right: 12%;
+        line-height: 18px;
+        font-size: 2.2vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+
+  // start responsive goals of reflexology
+  .goals2 {
+    margin-top: 11rem;
+    .wrapper_title2_goals {
+      .title_goals2 {
+        font-size: 18vw;
+      }
+    }
+    .wrapper_item_goals2 {
+      position: relative;
+      padding-left: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5rem;
+      padding-bottom: 3rem;
+      .title_itemGoals {
+        font-size: 8vw;
+      }
+      .desc_itemGoals {
+        font-size: 11px;
+        width: 53vw;
+        line-height: 19px;
+      }
+    }
+    .image_prevent_goals2 {
+      min-width: 100%;
+      min-height: 70vh;
+    }
+  }
+  // end responsive goals of reflexology
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 25rem;
+    .wrapper_more_descs {
+      padding-left: 3rem;
+      .titles_more1 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_image_more {
+      width: 85vw;
+      height: 65vw;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 3rem;
+    }
+    .wrapper_more_descs2 {
+      padding-left: 3rem;
+      .titles_bottom_more1 {
+        font-size: 7.7vw;
+        line-height: 2.8rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 7.7vw;
+        line-height: 2.8rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 7.7vw;
+        line-height: 2.8rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 7.7vw;
+        line-height: 2.8rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_left_image_more {
+      height: 65vw;
+      width: 50vw;
+      margin-left: auto;
+      margin-right: 4rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical2 {
+    margin-top: 20rem;
+    .wrapper_Reflexzones2 {
+      padding-left: 1rem;
+      .Reflexzones2_title {
+        font-size: 7vw;
+      }
+      .Reflexzones2_desc1 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 1.2rem;
+      }
+      .Reflexzones2_desc2 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 22px;
+      }
+    }
+    .wrapper_Ancestral2 {
+      padding-left: 1rem;
+      .Ancestral2_title {
+        font-size: 6vw;
+      }
+      .Ancestral2_desc1 {
+        font-size: 10px;
+        margin-top: 2rem;
+        line-height: 18px;
+      }
+      .Ancestral2_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 23px;
+      }
+    }
+    .image1_Technical2 {
+      background-size: 95%;
+      width: 100%;
+      height: 20vh;
+      margin-top: 4rem;
+    }
+    .image2_Technical2 {
+      background-size: 98%;
+      width: 100%;
+      height: 20vh;
+      margin-top: 4rem;
+    }
+    .image3_Technical2 {
+      background-size: 108%;
+      width: 100%;
+      height: 20vh;
+      margin-top: 4rem;
+    }
+    .image4_Technical2 {
+      background-size: 100%;
+      width: 100%;
+      height: 40vh;
+      margin-top: 3rem;
+    }
+  }
+  // start responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 10rem;
+    height: 55vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 3rem;
+        .title_footer {
+          font-size: 11vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 295px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 476px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 18.5vw;
+      line-height: 6rem;
+    }
+    .price_reflexology {
+      margin-top: 14rem;
+      span {
+        font-size: 4.5vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 3.5rem;
+        top: -15%;
+        font-size: 10vw;
+        left: 8%;
+      }
+      .desc_header_image {
+        width: 50vw;
+        bottom: 32%;
+        right: 12%;
+        line-height: 18px;
+        font-size: 2.2vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+  // start responsive goals of reflexology
+  .goals2 {
+    margin-top: 11rem;
+    .wrapper_title2_goals {
+      .title_goals2 {
+        font-size: 18vw;
+      }
+    }
+    .wrapper_item_goals2 {
+      position: relative;
+      padding-left: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5rem;
+      padding-bottom: 3rem;
+      .title_itemGoals {
+        font-size: 9vw;
+      }
+      .desc_itemGoals {
+        font-size: 10px;
+        width: 52vw;
+        line-height: 17px;
+      }
+    }
+    .image_prevent_goals2 {
+      min-width: 100%;
+      min-height: 75vh;
+    }
+  }
+  // end responsive goals of reflexology
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 25rem;
+    .wrapper_more_descs {
+      padding-left: 3rem;
+      .titles_more1 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 9vw;
+        line-height: 3rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_image_more {
+      width: 85vw;
+      height: 65vw;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 3rem;
+    }
+    .wrapper_more_descs2 {
+      padding-left: 3rem;
+      .titles_bottom_more1 {
+        font-size: 7.5vw;
+        line-height: 3.2rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 7.5vw;
+        line-height: 3.2rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 7.5vw;
+        line-height: 3.2rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 7.5vw;
+        line-height: 3.2rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_left_image_more {
+      height: 65vw;
+      width: 50vw;
+      margin-left: auto;
+      margin-right: 4rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical2 {
+    margin-top: 20rem;
+    .wrapper_Technical2_title {
+      margin-top: 12%;
+      .Technical2_title {
+        font-size: 14vw;
+      }
+    }
+    .wrapper_Reflexzones2 {
+      padding-left: 1rem;
+      margin-top: 3rem;
+      .Reflexzones2_title {
+        font-size: 7vw;
+      }
+      .Reflexzones2_desc1 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 1.2rem;
+      }
+      .Reflexzones2_desc2 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 22px;
+      }
+    }
+    .wrapper_Ancestral2 {
+      padding-left: 1rem;
+      .Ancestral2_title {
+        font-size: 6vw;
+      }
+      .Ancestral2_desc1 {
+        font-size: 10px;
+        margin-top: 2rem;
+        line-height: 18px;
+      }
+      .Ancestral2_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 23px;
+      }
+    }
+    .image1_Technical2 {
+      background-size: 95%;
+      width: 100%;
+      height: 38vh;
+      margin-top: 3rem;
+    }
+    .image2_Technical2 {
+      background-size: 98%;
+      width: 100%;
+      height: 39vh;
+      margin-top: 0rem;
+    }
+    .image3_Technical2 {
+      background-size: 108%;
+      width: 100%;
+      height: 35vh;
+      margin-top: 1rem;
+    }
+    .image4_Technical2 {
+      background-size: 100%;
+      width: 100%;
+      height: 67vh;
+      margin-top: 1rem;
+    }
+  }
+  // start responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 15rem;
+    height: 63vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 2rem;
+        .title_footer {
+          font-size: 11vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 295px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 576px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 17vw;
+      line-height: 7rem;
+    }
+    .price_reflexology {
+      margin-top: 14rem;
+      span {
+        font-size: 4vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 4rem;
+        top: -15%;
+        font-size: 8vw;
+        left: 8%;
+      }
+      .desc_header_image {
+        width: 40vw;
+        bottom: 35%;
+        right: 12%;
+        line-height: 20px;
+        font-size: 1.8vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+
+  // start reflexology goals responsive
+  .goals2 {
+    margin-top: 9rem;
+    .wrapper_title2_goals {
+      .title_goals2 {
+        font-size: 15vw;
+      }
+    }
+    .wrapper_item_goals2 {
+      position: relative;
+      padding-left: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5rem;
+      padding-bottom: 3rem;
+      .title_itemGoals {
+        font-size: 9vw;
+      }
+      .desc_itemGoals {
+        font-size: 11px;
+        width: 53vw;
+        line-height: 18px;
+      }
+    }
+    .image_prevent_goals2 {
+      min-width: 100%;
+      min-height: 80vh;
+    }
+  }
+  // end reflexology goals responsive
+
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 28rem;
+    .wrapper_more_descs {
+      padding-left: 3rem;
+      .titles_more1 {
+        font-size: 9vw;
+        line-height: 4rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 9vw;
+        line-height: 4rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 9vw;
+        line-height: 4rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 9vw;
+        line-height: 4rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_image_more {
+      width: 85vw;
+      height: 65vw;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 3rem;
+    }
+    .wrapper_more_descs2 {
+      padding-left: 4rem;
+      .titles_bottom_more1 {
+        font-size: 7.5vw;
+        line-height: 3.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 7.5vw;
+        line-height: 3.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 7.5vw;
+        line-height: 3.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 7.5vw;
+        line-height: 3.5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_left_image_more {
+      height: 65vw;
+      width: 50vw;
+      margin-left: auto;
+      margin-right: 4rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical2 {
+    margin-top: 20rem;
+    .wrapper_Technical2_title {
+      margin-top: 12%;
+      .Technical2_title {
+        font-size: 13vw;
+      }
+    }
+    .wrapper_Reflexzones2 {
+      padding-left: 1rem;
+      margin-top: 3rem;
+      .Reflexzones2_title {
+        font-size: 6vw;
+      }
+      .Reflexzones2_desc1 {
+        font-size: 13px;
+        margin-top: 2.5rem;
+        line-height: 1.3rem;
+      }
+      .Reflexzones2_desc2 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 22px;
+      }
+    }
+    .wrapper_Ancestral2 {
+      padding-left: 1rem;
+      margin-top: 2rem;
+      .Ancestral2_title {
+        font-size: 6vw;
+      }
+      .Ancestral2_desc1 {
+        font-size: 11px;
+        margin-top: 2.5rem;
+        line-height: 20px;
+      }
+      .Ancestral2_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 23px;
+      }
+    }
+    .image1_Technical2 {
+      background-size: 95%;
+      width: 100%;
+      height: 50vh;
+      margin-top: 3rem;
+    }
+    .image2_Technical2 {
+      background-size: 100%;
+      width: 100%;
+      height: 38vh;
+      margin-top: 4rem;
+    }
+    .image3_Technical2 {
+      background-size: 100%;
+      width: 100%;
+      height: 35vh;
+      margin-top: 5rem;
+    }
+    .image4_Technical2 {
+      background-size: 83%;
+      width: 100%;
+      height: 60vh;
+      margin-top: 5rem;
+    }
+  }
+  // start responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 15rem;
+    height: 60vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 2rem;
+        .title_footer {
+          font-size: 11vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 290px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 768px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 14vw;
+      line-height: 8rem;
+    }
+    .price_reflexology {
+      margin-top: 13rem;
+      span {
+        font-size: 3vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 5rem;
+        top: -15%;
+        font-size: 8vw;
+        left: 10%;
+      }
+      .desc_header_image {
+        width: 35vw;
+        bottom: 25%;
+        right: 12%;
+        line-height: 20px;
+        font-size: 1.5vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+  // start goals section reflexology reponsive
+  .goals {
+    .wrapper_goals_title {
+      margin-top: 95%;
+      .goals_title {
+        font-size: 9vw;
+      }
+    }
+    .wrapper_relax {
+      padding-left: 0rem;
+    }
+    .wrapper_clear_out {
+      padding-left: 0;
+    }
+    .wrapper_enable {
+      padding-left: 0rem;
+    }
+    .wrapper_regulate {
+      padding-left: 0rem;
+    }
+    .wrapper_prevent {
+      padding-left: 0rem;
+    }
+  }
+  .goals2 {
+    margin-top: 11rem;
+    .wrapper_title2_goals {
+      .title_goals2 {
+        font-size: 13vw;
+      }
+    }
+    .wrapper_item_goals2 {
+      position: relative;
+      padding-left: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5rem;
+      padding-bottom: 3rem;
+      .title_itemGoals {
+        font-size: 8vw;
+      }
+      .desc_itemGoals {
+        font-size: 12px;
+        width: 53vw;
+        line-height: 20px;
+      }
+    }
+    .image_prevent_goals2 {
+      min-width: 100%;
+      min-height: 85vh;
+    }
+  }
+  // end gaols section reflexology responsive
+
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 30rem;
+    .wrapper_more_descs {
+      padding-left: 4rem;
+      .titles_more1 {
+        font-size: 8vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 8vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 8vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 8vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_more_descs2 {
+      padding-left: 3rem;
+      .titles_bottom_more1 {
+        font-size: 7vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 7vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 7vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 7vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_left_image_more {
+      height: 65vw;
+      width: 50vw;
+      margin-left: auto;
+      margin-right: 4rem;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical2 {
+    margin-top: 22rem;
+    .wrapper_Technical2_title {
+      margin-top: 12%;
+      .Technical2_title {
+        font-size: 12vw;
+      }
+    }
+    .wrapper_Reflexzones2 {
+      padding-left: 1rem;
+      margin-top: 5rem;
+      .Reflexzones2_title {
+        font-size: 6vw;
+      }
+      .Reflexzones2_desc1 {
+        font-size: 13px;
+        margin-top: 2.5rem;
+        line-height: 1.3rem;
+      }
+      .Reflexzones2_desc2 {
+        font-size: 12px;
+        margin-top: 1.5rem;
+        line-height: 22px;
+      }
+    }
+    .wrapper_Ancestral2 {
+      padding-left: 1rem;
+      margin-top: 3rem;
+      .Ancestral2_title {
+        font-size: 6vw;
+      }
+      .Ancestral2_desc1 {
+        font-size: 11px;
+        margin-top: 2.5rem;
+        line-height: 20px;
+      }
+      .Ancestral2_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 23px;
+      }
+    }
+    .image1_Technical2 {
+      width: 100%;
+      background-size: 100%;
+      height: 75vh;
+      margin-top: 2rem;
+    }
+    .image2_Technical2 {
+      width: 100%;
+      background-size: 100%;
+      height: 60vh;
+      margin-top: 0rem;
+    }
+    .image3_Technical2 {
+      width: 100%;
+      background-size: 100%;
+      height: 70vh;
+      margin-top: 0rem;
+    }
+    .image4_Technical2 {
+      width: 100%;
+      background-size: 100%;
+      height: 100vh;
+      margin-top: 1rem;
+    }
+  }
+  // start responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 10rem;
+    height: 63vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 3rem;
+        .title_footer {
+          font-size: 11vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 324px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 992px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 13vw;
+      line-height: 8.5rem;
+    }
+    .price_reflexology {
+      margin-top: 13rem;
+      span {
+        font-size: 2.7vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 5.5rem;
+        top: -15%;
+        font-size: 7.5vw;
+        left: 10%;
+      }
+      .desc_header_image {
+        width: 30vw;
+        bottom: 25%;
+        right: 12%;
+        line-height: 21px;
+        font-size: 1.2vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+
+  // start goals section reflexology reponsive
+  .goals {
+    margin-top: 6rem;
+    .wrapper_goals_title {
+      margin-top: 65%;
+      .goals_title {
+        font-size: 8vw;
+      }
+    }
+    .wrapper_goalsItem1 {
+      padding-left: 1rem;
+      width: 100%;
+      padding-bottom: 3rem;
+      margin-top: 2rem;
+      .title_goalsItem1 {
+        font-size: 4vw;
+      }
+      .desc_goalsItem1 {
+        font-size: 11px;
+        margin-top: 2rem;
+        line-height: 19px;
+      }
+      .border_goalsItem1 {
+        bottom: 0rem;
+        left: -27px;
+      }
+    }
+    .prevent_image {
+      height: 50%;
+    }
+    .border_bottom_goals {
+      bottom: -37%;
+    }
+  }
+  // end gaols section reflexology responsive
+
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 55rem;
+    .wrapper_more_descs {
+      padding-left: 5rem;
+      .titles_more1 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_image_more {
+      width: 20vw;
+      height: 16vw;
+      margin-right: 3rem;
+      margin-left: 0;
+      margin-bottom: 0rem;
+    }
+    .wrapper_more_descs2 {
+      padding-left: 1rem;
+      .titles_bottom_more1 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 6vw;
+        line-height: 4.5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_left_image_more {
+      height: 23vw;
+      width: 16vw;
+      margin-left: 5rem;
+      margin-top: 2rem;
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical {
+    margin-top: 12rem;
+    .wrapper_Technical_title {
+      margin-top: 77%;
+    }
+    .wrapper_Ancestral {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Ancestral_title {
+        font-size: 4vw;
+      }
+      .Ancestral_desc1 {
+        font-size: 12px;
+        margin-top: 2rem;
+        line-height: 21px;
+      }
+      .Ancestral_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 21px;
+      }
+    }
+    .wrapper_Reflexzones {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Reflexzones_title {
+        font-size: 4vw;
+      }
+      .Reflexzones_desc1 {
+        font-size: 12px;
+        margin-top: 2rem;
+        line-height: 21px;
+      }
+      .Reflexzones_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 21px;
+      }
+    }
+    .wrapper_image1_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 265px;
+    }
+    .wrapper_image2_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 215px;
+    }
+    .wrapper_image3_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 220px;
+    }
+    .wrapper_image4_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 345px;
+    }
+    .border_bottom_technical {
+      bottom: -10rem;
+    }
+  }
+  // end responsive Technical of reflexology
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 30rem;
+    height: 70vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 2rem;
+        .title_footer {
+          font-size: 10vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 324px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 1200px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 11vw;
+      line-height: 9.5rem;
+    }
+    .price_reflexology {
+      margin-top: 11rem;
+      span {
+        font-size: 2vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 6rem;
+        top: -15%;
+        font-size: 7vw;
+        left: 15%;
+      }
+      .desc_header_image {
+        width: 30vw;
+        bottom: 20%;
+        right: 12%;
+        line-height: 23px;
+        font-size: 0.9vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+
+  // start goals section reflexology reponsive
+  .goals {
+    margin-top: 8rem;
+    .wrapper_goals_title {
+      margin-top: 55%;
+      .goals_title {
+        font-size: 8vw;
+      }
+    }
+    .wrapper_goalsItem1 {
+      padding-left: 1rem;
+      width: 100%;
+      padding-bottom: 3rem;
+      margin-top: 2rem;
+      .title_goalsItem1 {
+        font-size: 3vw;
+      }
+      .desc_goalsItem1 {
+        font-size: 12px;
+        margin-top: 2rem;
+        line-height: 21px;
+      }
+      .border_goalsItem1 {
+        bottom: 0rem;
+        left: -27px;
+      }
+    }
+    .prevent_image {
+      height: 56%;
+    }
+    .border_bottom_goals {
+      bottom: -40%;
+    }
+  }
+  // end gaols section reflexology responsive
+
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 60rem;
+    .wrapper_more_descs {
+      .titles_more1 {
+        font-size: 6vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 6vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 6vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 6vw;
+        line-height: 5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_more_descs2 {
+      .titles_bottom_more1 {
+        font-size: 6vw;
+        line-height: 5.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 6vw;
+        line-height: 5.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 6vw;
+        line-height: 5.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 6vw;
+        line-height: 5.5rem;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  // end responsive more about of reflexology+
+
+  // start responsive Technical of reflexology
+  .Technical {
+    margin-top: 12rem;
+    .wrapper_Technical_title {
+      margin-top: 64%;
+    }
+    .wrapper_Ancestral {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Ancestral_title {
+        font-size: 3vw;
+      }
+      .Ancestral_desc1 {
+        font-size: 13px;
+        margin-top: 2.5rem;
+        line-height: 22px;
+      }
+      .Ancestral_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 21px;
+      }
+    }
+    .wrapper_Reflexzones {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Reflexzones_title {
+        font-size: 3vw;
+      }
+      .Reflexzones_desc1 {
+        font-size: 13px;
+        margin-top: 2.5rem;
+        line-height: 22px;
+      }
+      .Reflexzones_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 21px;
+      }
+    }
+    .wrapper_image1_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 323px;
+    }
+    .wrapper_image2_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 240px;
+    }
+    .wrapper_image3_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 255px;
+    }
+    .wrapper_image4_technical {
+      margin: 2rem 0rem;
+      width: 100%;
+      height: 390px;
+    }
+  }
+  // end responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 30rem;
+    height: 70vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 3rem;
+        .title_footer {
+          font-size: 10vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 324px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
+@media (min-width: 1400px) {
+  // start responsive header of reflexology
+  .header_reflexology {
+    .title_header_reflexology {
+      font-size: 10vw;
+      line-height: 10.5rem;
+    }
+    .price_reflexology {
+      margin-top: 7rem;
+      span {
+        font-size: 2vw;
+      }
+    }
+    .sticky_texts {
+      .title_header_image {
+        line-height: 6rem;
+        top: -15%;
+        font-size: 6.5vw;
+        left: 15%;
+      }
+      .desc_header_image {
+        width: 30vw;
+        bottom: 18%;
+        right: 12%;
+        line-height: 23px;
+        font-size: 0.9vw;
+      }
+    }
+  }
+  // end responsive header of reflexology
+
+  // start goals section reflexology reponsive
+  .goals {
+    margin-top: 10rem;
+    .wrapper_goals_title {
+      margin-top: 56%;
+      .goals_title {
+        font-size: 6vw;
+      }
+    }
+    .wrapper_goalsItem1 {
+      padding-left: 1rem;
+      width: 100%;
+      padding-bottom: 3rem;
+      margin-top: 2rem;
+      .title_goalsItem1 {
+        font-size: 3vw;
+      }
+      .desc_goalsItem1 {
+        font-size: 13px;
+        margin-top: 2rem;
+        line-height: 23px;
+      }
+      .border_goalsItem1 {
+        bottom: 0rem;
+        left: -27px;
+      }
+    }
+    .prevent_image {
+      height: 60%;
+    }
+    .border_bottom_goals {
+      bottom: -42%;
+    }
+  }
+  // end gaols section reflexology responsive
+
+  // start responsive more about of reflexology
+  .moreAbout {
+    margin-top: 60rem;
+    .wrapper_more_descs {
+      .titles_more1 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more2 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more3 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_more4 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+    }
+    .wrapper_more_descs2 {
+      .titles_bottom_more1 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more2 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more3 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+      .titles_bottom_more4 {
+        font-size: 6vw;
+        line-height: 6.5rem;
+        letter-spacing: -1px;
+      }
+    }
+  }
+  // end responsive more about of reflexology
+
+  // start responsive Technical of reflexology
+  .Technical {
+    margin-top: 12rem;
+    .wrapper_Technical_title {
+      margin-top: 50%;
+    }
+    .wrapper_Ancestral {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Ancestral_title {
+        font-size: 3vw;
+      }
+      .Ancestral_desc1 {
+        font-size: 14px;
+        margin-top: 2.5rem;
+        line-height: 1.4rem;
+      }
+      .Ancestral_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 1.3rem;
+      }
+    }
+    .wrapper_Reflexzones {
+      padding-left: 1rem;
+      padding-bottom: 3rem;
+      .Reflexzones_title {
+        font-size: 3vw;
+      }
+      .Reflexzones_desc1 {
+        font-size: 14px;
+        margin-top: 2.5rem;
+        line-height: 1.4rem;
+      }
+      .Reflexzones_desc2 {
+        font-size: 13px;
+        margin-top: 1.5rem;
+        line-height: 1.3rem;
+      }
+    }
+    .wrapper_image1_technical {
+      margin: 4rem 0rem;
+      width: 640px;
+      height: 372px;
+    }
+    .wrapper_image2_technical {
+      margin: 4rem 0rem;
+      width: 640px;
+      height: 372px;
+    }
+    .wrapper_image3_technical {
+      margin: 4rem 0rem;
+      width: 640px;
+      height: 372px;
+    }
+    .wrapper_image4_technical {
+      margin: 4rem 0rem;
+      width: 640px;
+      height: 372px;
+    }
+    .border_bottom_technical {
+      bottom: -11rem;
+    }
+  }
+  // end responsive Technical of reflexology
+
+  // start responsive footer of reflexology
+  .footer_reflexology {
+    margin-top: 30rem;
+    height: 70vh;
+    .wrapper_title_footer {
+      width: 100%;
+      .next_page {
+        font-size: 20px;
+      }
+      a {
+        margin-top: 4rem;
+        .title_footer {
+          font-size: 8vw;
+        }
+      }
+      .hover_title_footer {
+        width: 200px;
+        height: 324px;
+      }
+    }
+  }
+  // end responsive footer of reflexology
+}
